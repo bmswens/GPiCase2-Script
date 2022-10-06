@@ -1,0 +1,14 @@
+[Unit]
+Description=Start emulationstation
+
+[Service]
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+ExecStart=/usr/bin/emulationstation
+Restart=always
+RestartSec=30s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=graphical.target
