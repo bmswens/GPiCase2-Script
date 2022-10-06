@@ -43,5 +43,17 @@ Click the link to download the patch：[Download GPiCase2 patch](https://github.
 
 --------------------
 
+### for Raspberry Pi OS:
+1. Make sure you are connected to the internet.
+2. Make sure your keyboard is connected.
+3. Enter terminal.
+4. User: root Password: user specified
+5. In the terminal, type the command below (This is case sensitive):
+
+`wget -O - "https://raw.githubusercontent.com/bmswens/GPiCase2-Script/main/raspberry-pi-os/install.sh" | bash`
+
+
+--------------------
+
 Example for lakkatv:
 https://github.com/marcelonovaes/lakka_nespi_power
